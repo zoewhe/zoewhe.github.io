@@ -26,9 +26,9 @@ author:
   avatar           : "profile_london.jpg"
   name             : "Zoe He"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
+  #bio              : "Short biography for the left-hand sidebar"
   location         : "La Jolla, CA"
-  employer         : "University of California, San Diego"
+  employer         : "UC San Diego"
   uri              : # URL
   email            : "zoehe@ucsd.edu" 
 
@@ -48,7 +48,7 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "zoewhe"
+  #github           : "zoewhe"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
