@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-<div style="font-size: 0.8em;">
+<div style="font-size: 0.8em;" markdown="1">
 
 Hello! I am a Ph.D. Candidate in Cognitive Science at UC San Diego, where I work at the intersection of computational neuroscience and artificial intelligence. My research seeks to uncover the universal computational principles of intelligence by studying it in both biological and artificial systems. 
 
