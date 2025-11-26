@@ -17,6 +17,7 @@ I analyze and compare internal representations in large-scale AI models (LLMs, V
 **Related papers:**
 
 - Seeing Through Words, Speaking Through Pixels: Deep Representational Alignment Between Vision and Language Models. 
+
   **Zoe Wanying He**, Sean Trott, Meenakshi Khosla  
   *EMNLP 2025 (**Oral**)*  
   [[pdf]](https://arxiv.org/abs/2509.20751)
@@ -27,11 +28,13 @@ I design experiments and build Bayesian computational models to understand how t
 **Related papers:**
 
 - Pupil size reflects the relevance of reward prediction error and estimation uncertainty in upcoming choice.  
+
   **Zoe W. He**, Maëva L'Hôtellier, Alexander Paunov, Dalin Guo, Florent Meyniel, Angela J. Yu  
   *CogSci 2024 (**Oral**)*  
   [[pdf]](https://escholarship.org/uc/item/9cr3j67v)
 
-- .Multiple and subject-specific roles of uncertainty in reward-guided decision-making. 
+- Multiple and subject-specific roles of uncertainty in reward-guided decision-making. 
+
   Alexander Paunov, Maëva L'Hôtellier, Dalin Guo, **Zoe He**, Angela Yu, Florent Meyniel  
   *bioRxiv Preprint*  
   [[pdf]](https://doi.org/10.1101/2024.03.27.587016) *To appear in eLife*
@@ -39,22 +42,27 @@ I design experiments and build Bayesian computational models to understand how t
 ## Other Publications and Selected Conference Presentations
 
 - Many-to-Many, Yet Convergent: Insights into the alignment of Vision and Language Models.  
+
   **Zoe W. He**, Sean Trott, Meenakshi Khosla  
   *Conference on Cognitive Computational Neuroscience (2025)*
 
 - A pupillometry study of reward and uncertainties in experience-based decision making.  
-  **Zoe He** et al.  
+
+  **Zoe W. He**, Maëva L'Hôtellier, Alexander Paunov, Dalin Guo, Florent Meyniel, Angela J. Yu  
   *European Conference on Visual Perception (2023)*
 
-- Role of pupil-linked uncertainties and rewards in value-based decision making.  
-  **Zoe He** et al.  
+- Role of pupil-linked uncertainties and rewards in value-based decision making.
+
+  **Zoe W. He**, Maëva L'Hôtellier, Alexander Paunov, Dalin Guo, Florent Meyniel, Angela J. Yu 
   *Conference on Cognitive Computational Neuroscience (2022)*
 
 - Information coding in frontoparietal regions reflects individual differences in uncertainty-driven choices.  
-  Alexander Paunov et al.  
+
+  Alexander Paunov, Maëva L'Hôtellier, Dalin Guo, **Zoe He**, Angela Yu, Florent Meyniel  
   *Conference on Cognitive Computational Neuroscience (2022)*
 
 - Gender differences in face-based trait perception and social decision making.  
+
   **Zoe W. He** & Angela J. Yu  
   *Proceedings of the Annual Meeting of the Cognitive Science Society (2021)*  
   [[pdf]](https://escholarship.org/uc/item/20b768jp)
