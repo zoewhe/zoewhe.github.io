@@ -7,6 +7,8 @@ redirect_from:
   - /about.html
 ---
 
+<div style="font-size: 0.8em;">
+
 Hello! I am a Ph.D. Candidate in Cognitive Science at UC San Diego, where I work at the intersection of computational neuroscience and artificial intelligence. My research seeks to uncover the universal computational principles of intelligence by studying it in both biological and artificial systems. 
 
 My work is fundamentally interdisciplinary, spanning two complementary domains:
@@ -66,4 +68,6 @@ I design experiments and build Bayesian computational models to understand how t
   **Zoe W. He** & Angela J. Yu  
   *Proceedings of the Annual Meeting of the Cognitive Science Society (2021)*  
   [[pdf]](https://escholarship.org/uc/item/20b768jp)
+
+</div>
 
