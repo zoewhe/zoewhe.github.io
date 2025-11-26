@@ -18,56 +18,28 @@ I analyze and compare internal representations in large-scale AI models (LLMs, V
 
 **Related papers:**
 
-- Seeing Through Words, Speaking Through Pixels: Deep Representational Alignment Between Vision and Language Models. 
-
-  **Zoe Wanying He**, Sean Trott, Meenakshi Khosla  
-  *EMNLP 2025 (**Oral**)*  
-  [[pdf]](https://arxiv.org/abs/2509.20751)
+- **He, Z.W.**, Trott, S., & Khosla, M. (2025). Seeing Through Words, Speaking Through Pixels: Deep Representational Alignment Between Vision and Language Models. *EMNLP 2025 (**Oral**).* [[pdf]](https://arxiv.org/abs/2509.20751)
 
 ## Computational Modeling of Human Cognition
 I design experiments and build Bayesian computational models to understand how the human brain performs learning, reasoning, and decision-making under uncertainty. This work examines the neural and cognitive mechanisms that enable adaptive behavior in dynamic environments.
 
 **Related papers:**
 
-- Pupil size reflects the relevance of reward prediction error and estimation uncertainty in upcoming choice.  
+- **He, Z.W.**, L'Hôtellier, M., Paunov, A., Guo, D., Meyniel, F., & Yu, A.J. (2024). Pupil size reflects the relevance of reward prediction error and estimation uncertainty in upcoming choice. *CogSci 2024 (**Oral**).* [[pdf]](https://escholarship.org/uc/item/9cr3j67v)
 
-  **Zoe W. He**, Maëva L'Hôtellier, Alexander Paunov, Dalin Guo, Florent Meyniel, Angela J. Yu  
-  *CogSci 2024 (**Oral**)*  
-  [[pdf]](https://escholarship.org/uc/item/9cr3j67v)
-
-- Multiple and subject-specific roles of uncertainty in reward-guided decision-making. 
-
-  Alexander Paunov, Maëva L'Hôtellier, Dalin Guo, **Zoe He**, Angela Yu, Florent Meyniel  
-  *bioRxiv Preprint*  
-  [[pdf]](https://doi.org/10.1101/2024.03.27.587016) *To appear in eLife*
+- Paunov, A., L'Hôtellier, M., Guo, D., **He, Z.**, Yu, A., & Meyniel, F. Multiple and subject-specific roles of uncertainty in reward-guided decision-making. *bioRxiv Preprint.* [[pdf]](https://doi.org/10.1101/2024.03.27.587016) *To appear in eLife.*
 
 ## Other Publications and Selected Conference Presentations
 
-- Many-to-Many, Yet Convergent: Insights into the alignment of Vision and Language Models.  
+- **He, Z.W.**, Trott, S., & Khosla, M. (2025). Many-to-Many, Yet Convergent: Insights into the alignment of Vision and Language Models. *Conference on Cognitive Computational Neuroscience.*
 
-  **Zoe W. He**, Sean Trott, Meenakshi Khosla  
-  *Conference on Cognitive Computational Neuroscience (2025)*
+- **He, Z.W.**, L'Hôtellier, M., Paunov, A., Guo, D., Meyniel, F., & Yu, A.J. (2023). A pupillometry study of reward and uncertainties in experience-based decision making. *European Conference on Visual Perception.*
 
-- A pupillometry study of reward and uncertainties in experience-based decision making.  
+- **He, Z.W.**, L'Hôtellier, M., Paunov, A., Guo, D., Meyniel, F., & Yu, A.J. (2022). Role of pupil-linked uncertainties and rewards in value-based decision making. *Conference on Cognitive Computational Neuroscience.*
 
-  **Zoe W. He**, Maëva L'Hôtellier, Alexander Paunov, Dalin Guo, Florent Meyniel, Angela J. Yu  
-  *European Conference on Visual Perception (2023)*
+- Paunov, A., L'Hôtellier, M., Guo, D., **He, Z.**, Yu, A., & Meyniel, F. (2022). Information coding in frontoparietal regions reflects individual differences in uncertainty-driven choices. *Conference on Cognitive Computational Neuroscience.*
 
-- Role of pupil-linked uncertainties and rewards in value-based decision making.
-
-  **Zoe W. He**, Maëva L'Hôtellier, Alexander Paunov, Dalin Guo, Florent Meyniel, Angela J. Yu 
-  *Conference on Cognitive Computational Neuroscience (2022)*
-
-- Information coding in frontoparietal regions reflects individual differences in uncertainty-driven choices.  
-
-  Alexander Paunov, Maëva L'Hôtellier, Dalin Guo, **Zoe He**, Angela Yu, Florent Meyniel  
-  *Conference on Cognitive Computational Neuroscience (2022)*
-
-- Gender differences in face-based trait perception and social decision making.  
-
-  **Zoe W. He** & Angela J. Yu  
-  *Proceedings of the Annual Meeting of the Cognitive Science Society (2021)*  
-  [[pdf]](https://escholarship.org/uc/item/20b768jp)
+- **He, Z.W.**, & Yu, A.J. (2021). Gender differences in face-based trait perception and social decision making. *Proceedings of the Annual Meeting of the Cognitive Science Society.* [[pdf]](https://escholarship.org/uc/item/20b768jp)
 
 </div>
 
