@@ -24,7 +24,7 @@ repository               : https://github.com/zoewhe #"academicpages/academicpag
 author:
   # Biographic information
   avatar           : "profile_london.jpg"
-  name             : "Zoe He"
+  #name             : "Zoe He"
   pronouns         : # example: "she/her"  
   #bio              : "Short biography for the left-hand sidebar"
   location         : "La Jolla, CA"
