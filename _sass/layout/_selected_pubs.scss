@@ -1,0 +1,88 @@
+/* ==========================================================================
+   Selected publications (home page)
+   ========================================================================== */
+
+.selected-pub {
+  display: flex;
+  gap: 1.5em;
+  align-items: center;
+  margin-bottom: 1.5em;
+}
+
+.selected-pub__thumb {
+  flex: 0 0 240px;
+
+  img {
+    width: 100%;
+    border-radius: 4px;
+    cursor: zoom-in;
+  }
+}
+
+/* Enlarged figure shown in the middle of the screen while hovering the thumbnail */
+.selected-pub__thumb .selected-pub__zoom {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: auto;
+  max-width: 68vw;
+  max-height: 68vh;
+  z-index: 1000;
+  background: #fff;
+  padding: 8px;
+  border-radius: 6px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.35);
+  pointer-events: none;
+}
+
+@media (hover: hover) {
+  .selected-pub__thumb a:hover .selected-pub__zoom {
+    display: block;
+  }
+}
+
+.selected-pub__text {
+  flex: 1;
+  font-size: 0.95rem;
+  line-height: 1.45;
+}
+
+.selected-pub__title {
+  font-weight: 600;
+  font-size: 1.1rem;
+  margin-bottom: 0.2em;
+}
+
+.selected-pub__venue {
+  font-style: italic;
+}
+
+/* Bold text in the venue line (e.g. Oral), in the teal used on the CV */
+.selected-pub__venue strong {
+  color: #207382;
+}
+
+.selected-pub__links {
+  margin-top: 0.25em;
+}
+
+@media (max-width: 600px) {
+  .selected-pub {
+    flex-direction: column;
+  }
+
+  .selected-pub__thumb {
+    flex-basis: auto;
+    width: 100%;
+    max-width: 300px;
+  }
+}
+
+.selected-pubs__hint {
+  margin: -0.5em 0 1.25em;
+  font-size: 0.85rem;
+  font-style: italic;
+  color: #6c757d;
+}

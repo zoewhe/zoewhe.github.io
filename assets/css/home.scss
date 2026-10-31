@@ -1,0 +1,216 @@
+---
+---
+
+/*
+ * Styles for the single-page home layout (_layouts/home.html).
+ * The rest of the site still uses main.scss.
+ */
+
+$text: #333;
+$muted: #6c757d;
+$accent: #207382;        // teal from the CV ("Oral Presentation")
+$accent-hover: #2e9bb0;
+$band: #dcecee;          // header background
+$rule: #e3e7e8;
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  color: $text;
+  background: #fff;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 350;
+  line-height: 1.5;
+}
+
+a {
+  color: $accent;
+  text-decoration: none;
+
+  &:hover {
+    color: $accent-hover;
+    text-decoration: underline;
+  }
+}
+
+strong,
+b {
+  font-weight: 600;
+}
+
+.container {
+  width: 75%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* Header band: photo, name, links, intro
+   ========================================================================== */
+
+.me {
+  background: $band;
+  padding: 28px 0;
+
+  .container {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+  }
+}
+
+.me__photo {
+  flex: 0 0 200px;
+  width: 200px;
+  height: 200px;
+  padding: 3px;
+  object-fit: cover;
+  border: 1px solid #c5cdce;
+  border-radius: 50%;
+  background: #fff;
+}
+
+.me__text {
+  flex: 1;
+  min-width: 0;
+}
+
+.me__name {
+  margin: 0 0 0.25em;
+  font-size: 2.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.me__links {
+  margin: 0 0 1em;
+  font-size: 0.9rem;
+  letter-spacing: 0.03em;
+}
+
+.me__bio p {
+  margin: 0 0 0.75em;
+}
+
+/* Main column
+   ========================================================================== */
+
+main {
+  margin-top: 35px;
+  margin-bottom: 50px;
+}
+
+section {
+  margin-bottom: 2.5em;
+}
+
+h2 {
+  margin: 0 0 0.75em;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+/* News, with a show more / hide toggle after the first five items */
+
+.news {
+  position: relative;
+}
+
+.news__table {
+  margin: 0 10%;
+  border-collapse: collapse;
+}
+
+.news__date {
+  padding: 0 25px 10px 0;
+  vertical-align: top;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.news__text {
+  padding-bottom: 10px;
+  vertical-align: top;
+}
+
+#news-toggle {
+  display: none;
+}
+
+.news__table tr:nth-of-type(n+6) {
+  display: none;
+}
+
+#news-toggle:checked ~ .news__table tr {
+  display: table-row;
+}
+
+.news__more,
+.news__less {
+  display: block;
+  width: fit-content;
+  margin: 0.5em auto 0;
+  padding: 2px 8px;
+  border: 1px solid transparent;
+  color: #555;
+  font-size: 0.75rem;
+  font-weight: 700;
+  cursor: pointer;
+
+  &:hover {
+    border-color: #555;
+  }
+}
+
+.news__less,
+#news-toggle:checked ~ .news__more {
+  display: none;
+}
+
+#news-toggle:checked ~ .news__less {
+  display: block;
+}
+
+/* Other publications */
+
+.other-pubs {
+  padding-left: 1.25em;
+
+  li {
+    margin-bottom: 0.6em;
+  }
+}
+
+footer {
+  padding: 10px 0;
+  background: #ececec;
+  color: #99afba;
+  font-size: 0.75rem;
+}
+
+@media (max-width: 700px) {
+  .container {
+    width: auto;
+    margin: 0 16px;
+  }
+
+  .me .container {
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .me__name,
+  .me__links {
+    text-align: center;
+  }
+
+  .news__table {
+    margin: 0;
+  }
+}
+
+@import "layout/selected_pubs";

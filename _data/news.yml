@@ -1,0 +1,20 @@
+# News items for the home page, newest first. The first five show by default;
+# the rest appear behind "SHOW MORE". text is Markdown.
+
+- date: "04/2026"
+  text: "Gave a research talk on representational alignment between vision and language models at **Cognition at the Shore**, UC San Diego."
+
+- date: "2026"
+  text: "[Stability Implies Redundancy](https://aclanthology.org/2026.acl-long.1235/) is accepted at **ACL 2026**!"
+
+- date: "02/2026"
+  text: "New preprint: [Barycentric Alignment for Instance-Level Comparison of Neural Representations](https://arxiv.org/abs/2602.09225)."
+
+- date: "11/2025"
+  text: "Gave an invited talk at the **Visual Learning Lab**, UC San Diego."
+
+- date: "11/2025"
+  text: "Presented [Seeing Through Words, Speaking Through Pixels](https://aclanthology.org/2025.emnlp-main.1806.pdf) as an **oral** at **EMNLP 2025**."
+
+- date: "08/2025"
+  text: "Presented a poster, *Many-to-Many, Yet Convergent*, at **CCN 2025**."

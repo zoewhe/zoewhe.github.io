@@ -1,0 +1,49 @@
+# Entries for the "Selected Publications" section on the home page.
+# image: file name under /images (e.g. papers/emnlp_2025.png); a GIF works too.
+# authors: Markdown, so wrap your own name in ** ** to bold it.
+# links: any number of label/url pairs, shown as "paper | code | ..."
+
+- title: "Probing Fine-Grained Semantic Alignment Across Vision and Language with Minimal Pairs"
+  authors: "**Zoe W. He**, Yanyu Lei, Meenakshi Khosla"
+  venue: "Under review"
+  image: papers/benchmark.png
+
+- title: "Barycentric Alignment for Instance-Level Comparison of Neural Representations"
+  authors: "Shreya Saha\\*, **Zoe W. He\\***, Meenakshi Khosla"
+  venue: "Under review (\\* equal contribution)"
+  image: papers/instance_level.png
+  links:
+    - label: arXiv
+      url: https://arxiv.org/abs/2602.09225
+
+- title: "Seeing Through Words, Speaking Through Pixels: Deep Representational Alignment Between Vision and Language Models"
+  authors: "**Zoe W. He**, Sean Trott, Meenakshi Khosla"
+  venue: "EMNLP 2025 (**Oral**)"
+  image: papers/emnlp_2025.png
+  links:
+    - label: paper
+      url: https://aclanthology.org/2025.emnlp-main.1806.pdf
+
+- title: "Stability Implies Redundancy: Delta Attention Selective Halting for Efficient Long-Context Prefilling"
+  authors: "Yujie Chen, Tailai Chen, Yifeng Gao, **Zoe W. He**, Yijue Xu, Shaobo Wang, Linfeng Zhang"
+  venue: "ACL 2026"
+  image: papers/acl_2026.png
+  links:
+    - label: paper
+      url: https://aclanthology.org/2026.acl-long.1235/
+
+- title: "Pupil Size Reflects the Relevance of Reward Prediction Error and Estimation Uncertainty in Upcoming Choice"
+  authors: "**Zoe W. He**, Maëva L'Hôtellier, Dalin Guo, Alexander Paunov, Florent Meyniel, Angela J. Yu"
+  venue: "CogSci 2024 (**Oral**)"
+  image: papers/pupil_cogsci_2024.png
+  links:
+    - label: paper
+      url: https://escholarship.org/uc/item/9cr3j67v
+
+- title: "Multiple and Subject-Specific Roles of Uncertainty in Reward-Guided Decision-Making"
+  authors: "Alexander Paunov, Maëva L'Hôtellier, Florent Meyniel, Dalin Guo, **Zoe W. He**, Angela J. Yu"
+  venue: "eLife Reviewed Preprint (2024)"
+  image: papers/decision_making_elife.png
+  links:
+    - label: paper
+      url: https://elifesciences.org/reviewed-preprints/103363

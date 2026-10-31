@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="{{ site.locale | slice: 0,2 | default: 'en' }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ site.title }}</title>
+  <meta name="description" content="{{ site.description }}">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ '/images/favicon-32x32.png' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/home.css' | relative_url }}">
+</head>
+<body>
+
+<header class="me">
+  <div class="container">
+    <img class="me__photo" src="{{ '/images/' | append: site.author.avatar | relative_url }}" alt="{{ site.title }}">
+    <div class="me__text">
+      <h1 class="me__name">{{ site.title }}</h1>
+      <p class="me__links">
+        {%- for link in page.links -%}
+        <a href="{{ link.url | relative_url }}" target="_blank">{{ link.label }}</a>{% unless forloop.last %} | {% endunless %}
+        {%- endfor -%}
+      </p>
+      <div class="me__bio">
+        {{ content }}
+      </div>
+    </div>
+  </div>
+</header>
+
+<main class="container">
+
+  <section>
+    <h2>News</h2>
+    <div class="news">
+      <input type="checkbox" id="news-toggle">
+      <table class="news__table">
+        {%- for item in site.data.news %}
+        <tr>
+          <td class="news__date">{{ item.date }}</td>
+          <td class="news__text">{{ item.text | markdownify | remove: '<p>' | remove: '</p>' }}</td>
+        </tr>
+        {%- endfor %}
+      </table>
+      {% if site.data.news.size > 5 %}
+      <label for="news-toggle" class="news__more">↓ SHOW MORE ↓</label>
+      <label for="news-toggle" class="news__less">↑ HIDE ↑</label>
+      {% endif %}
+    </div>
+  </section>
+
+  <section>
+    <h2>Selected Publications</h2>
+    {% include selected-publications.html %}
+  </section>
+
+  <section>
+    <h2>Other Publications &amp; Presentations</h2>
+    <ul class="other-pubs">
+      {%- for pub in site.data.other_publications %}
+      <li>{{ pub | markdownify | remove: '<p>' | remove: '</p>' }}</li>
+      {%- endfor %}
+    </ul>
+  </section>
+
+</main>
+
+<footer>
+  <div class="container">&copy; {{ site.time | date: '%Y' }} {{ site.title }}</div>
+</footer>
+
+</body>
+</html>
