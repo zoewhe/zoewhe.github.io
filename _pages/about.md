@@ -6,9 +6,8 @@ redirect_from:
   - /about/
   - /about.html
 links:
-  # CV link hidden for now; to show it, copy the PDF into files/ and uncomment.
-  # - label: CV
-  #   url: /files/ZoeHe_CV_2026.pdf
+  - label: CV
+    url: /files/ZoeHe_CV.pdf
   - label: EMAIL
     url: mailto:zoe.wy.he@gmail.com
   - label: LINKEDIN
